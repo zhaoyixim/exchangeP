@@ -1,0 +1,42 @@
+.form-box-wrap {
+  padding: 30px;
+  margin: 10px;
+  margin-top:0;
+  .lr-title {
+    margin-top: 8px;
+    margin-bottom: 18px;
+  }
+  .lr-input-wrap {
+    .lr-input {
+      padding: 0.65rem 1.25rem;
+      margin: 12px 0;
+      border-radius: 0.35rem;
+      border: 0;
+      font-weight: 400;
+      line-height: 1.5;
+      box-sizing: border-box;
+      width: 100%;
+      color: #3f4254;
+      background-color: #ffffff;
+      background-clip: padding-box;
+    }
+    .lr-passwd-title-box {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .vbtn-box {
+    box-sizing: border-box;
+    margin-top: 20px;
+    .vbtn {
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
+
+.forgettitletips {
+  margin-bottom: 20px;
+}

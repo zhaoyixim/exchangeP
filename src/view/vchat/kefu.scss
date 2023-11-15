@@ -1,0 +1,63 @@
+.showTips{background-color: #FFDEAD;color: #EEAD0E;margin: auto;padding:15px 10px;
+  margin: 20px;margin-bottom: 0; border-radius: 8px;text-align: center;}
+
+
+.home {
+  //position: relative;
+  height: 100%;
+  .home-body {
+    position: absolute;
+    bottom: 3rem;
+    overflow-y: scroll;
+    top: 0rem;
+    -webkit-overflow-scrolling: touch;
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
+    .home-body-item {
+      display: flex;
+      flex-direction: row;
+      padding: 0.5rem;
+      .home-body-avator {
+        width: 50px;
+        height: 50px;
+        box-shadow: 0px 2px 6px 1px #ccc;
+        border-radius: 5px;
+        margin-top: 0.5rem;
+      }
+      .home-body-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0.5rem 0.5rem 0.5rem;
+        .username {
+          color: #999;
+          font-weight: 500;
+          margin-bottom: 4px;
+        }
+        .content {
+          word-break: break-word;
+        }
+      }
+    }
+    .active {
+      flex-direction: row-reverse;
+      .home-body-content {
+        align-items: flex-end;
+      }
+    }
+  }
+  .home-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .home-bottom-container {
+      display: flex;
+      flex-direction: row;
+      border: 1px solid #999;
+      border-radius: 10px;
+      .weui-cell {
+        flex: 1;
+      }
+    }
+  }
+}

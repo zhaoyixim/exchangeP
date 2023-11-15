@@ -1,0 +1,127 @@
+@import './fonts/iconfont.css';
+.vh100{min-height: 100vh;}
+.borderred {border: 1px red solid;}
+.basebordercolor{ border-color: #8950FC !important;}
+
+
+.image-box{height: 100%;width: 100%;}
+.basecolor{ color: #8950FC !important;}
+.fontbasecolor{color: white;}
+.basefontcolor{color: #8950FC;}
+.transbasecolor{color: #EEE5FF;}
+.fontdark{color: #3F4254 !important;}
+.font666{color: #666;}
+.font333{color: #333;}
+.fontgrey{color: #7E8299 !important;}
+.fontsuccess{color: #0BB7AF !important;}
+.fontB5{color:#B5B5C3 !important;}
+
+.warningcolor{ color: #FFA800 !important ;}
+.rightcolor{color: #1BC5BD;}
+
+.colorlightgrey{color: #B5B5C3 !important;}
+.fontdanger{color: #F64E60 !important;}
+.fontcolortips{color: #1BC5BD;}
+
+.fontbold{font-weight: bold;}
+.fontlitterbold{font-weight: 600;}
+.fontnormal{font-weight: normal;}
+.borderbox{box-sizing: border-box;}
+
+.bgbasecolor{background-color: #1e1e1e !important;}
+.bgbasecolor2{background-color: #121826 !important;}
+.bgbasecolor3{background-color: #8950FC !important;}
+.bgbasecolor4{background-color: #EEE5FF !important;}
+.bgbasecolor5{background-color: #F64E60 !important;}
+.bgbasecolor6{background-color: #EBEDF3 !important;}
+.bgbasecolor7{background-color: #F3F6F9 !important;}
+.bgbasecolor8{background-color: #0BB7AF !important;}
+.bgbasecolor9{background-color: #aaa !important;}
+.bgbasecolor10{background-color: #E4E6EF !important;}
+.bg-light-warning {background-color: #FFF4DE !important;}
+.bgwhite{background-color: white;}
+.bg-success{background-color: #1BC5BD;}
+.label-light-success {color: #1BC5BD !important;background-color: #C9F7F5 !important;}
+.label-light-warning {color: #FFA800;background-color: #FFF4DE;}
+.label-light-info {color: #6993FF;background-color: #E1E9FF;}
+.label-light-danger {color: #F64E60;background-color: #FFE2E5;}
+.label-light-secondary {color: #6b6f85;background-color: #EBEDF3;}
+.label-danger {color: #ffffff;  background-color: #F64E60;}
+.label-info {color: #FFFFFF;background-color: #6993FF;}
+
+.label-secondary {  border-color: #E4E6EF;}
+
+.list-item-label{color: #7E8299;background-color: #F3F6F9;    padding: 0.15rem 0.75rem;border-radius: 0.42rem;width: auto; }
+.label-inline {width: auto;padding: 0.15rem 0.75rem;border-radius: 0.42rem;margin: 0 5px;}
+.label-light{color: #7E8299;background-color: #F3F6F9;}
+.label-success{color: #1BC5BD;background-color: #C9F7F5;}
+
+/*common source css*/
+a{color: white;}
+a{text-decoration: none !important;}
+
+.disflex{display: flex;}
+.flex{flex: 1;}
+.align-items-center{align-items: center;}
+.justify-spacecenter{justify-content:center;}
+.justify-spacebetween{justify-content: space-between;}
+.lineellipsis{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.autobreakwords{table-layout: fixed;word-wrap: break-all;word-break: normal;overflow: hidden;}
+/*common margin and padding gap*/
+.margin0{margin: 0;}
+.padding0{padding: 0 !important;}
+.paddingtop0{padding-top: 0 !important;}
+.paddingright0{padding-right: 0 !important;}
+.paddingbottom0{padding-bottom: 0 !important;}
+.paddingbottom100{padding-bottom: 100px !important;}
+.margintop3{margin-top: 3px !important;}
+.margintop5{margin-top: 5px !important;}
+.margintop10{margin-top: 10px !important;}
+.margintop15{margin-top: 15px !important;}
+
+.margintop20{margin-top: 20px !important;}
+.margintop30{margin-top: 30px !important;}
+.margintop40{margin-top: 40px !important;}
+.paddingbottom20{padding-bottom: 20px;}
+.padding10{padding: 10px;}
+.padding20{padding: 20px;}
+.padding30{padding: 30px;}
+.margin10{margin: 10px;}
+.margin20{margin: 20px;}
+.margin30{margin: 30px;}
+.marginbottom10{margin-bottom: 10px;}
+.marginbottom24{margin-bottom: 24px;}
+.marginbottom0{margin-bottom: 0 !important;}
+
+/*border radius*/
+
+.borderradius10{border-radius: 10px;}
+.borderradius4{border-radius: 4px !important;}
+/*vbtn base style*/
+.vbtn{display: flex; flex-direction: row;justify-content: center;font-weight: normal; text-align: center; user-select: none; background-color: transparent; border: 1px solid transparent; padding: .65rem 1rem; line-height: 1.5;border-radius: .42rem; }
+.btn-fixed{height: 35px;}
+.vbtn-small{display: flex; flex-direction: row;justify-content: center;font-weight: normal; 
+  text-align: center; user-select: none; background-color: transparent; border: 1px solid transparent; 
+  padding: .35rem 1rem; line-height: 1.5;border-radius: .42rem; }
+.vbtn-normal{border: 1px solid transparent;  padding: 8px 12px; border-radius: 0.42rem;}
+.vbtn-light {  color: #7E8299; background-color: #F3F6F9;border-color: #F3F6F9;}
+.btn-outline-primary{border: 1px solid transparent;background-color: transparent;padding: 8px 12px;border-radius: .42rem;vertical-align: middle;}
+
+.btn-light {  color: #7E8299;  background-color: #F3F6F9;  border-color: #F3F6F9;}
+  /*fixed icon */
+.uiconwhite{border: 1px solid white; }
+.uiconbasecolor{ border: 1px solid #8457e2; }
+.uiconfixed{ height: 20px; width: 20px;  text-align: center; border-radius: 50%; margin-right: 3px;  position: relative; top: 1px;}
+.uiconfixed2{ height: 13px; width: 13px; text-align: center; border-radius: 50%; margin-right: 2px; transform: scale(0.9); margin-top: 1px; }
+.uiconfixed3{ height: 44px; width: 44px; text-align: center; border-radius: 50%;transform: scale(0.9); }
+
+/*common tap css*/
+
+.tap-box{box-sizing: border-box;  width: 100%; box-shadow: 1px 1px 2px rgba(0,0,0,0.1);align-items: center; justify-content: center;}
+.vbtn-noborder{border: 1px solid transparent;}
+.step-btn-padding{padding: 1.8px 9px;line-height: 12px; }
+.bordertop{border-top: 1px #EBEDF3 solid;}
+.borderbottom {border-bottom: 1px solid #EBEDF3 ;}
+
+.text-center{text-align: center;}
+

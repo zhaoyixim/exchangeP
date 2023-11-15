@@ -1,0 +1,180 @@
+/*common list data*/
+
+.identyfy-box{
+  border: 1px #1BC5BD solid; border-radius: 4px; padding: 1px 2px;
+  display: flex; flex-direction: row;
+  .identify-flg{
+      margin-top: 2px; padding: 0 2px;
+  }
+}
+
+.list-box{border-radius: .42rem; padding: 10px;display: flex; flex-direction: row; 
+  .width260{width: 260px;}
+  .width280{width: 280px;}
+  .left-area{flex: 1; 
+    .title-box-wrap{display: flex;padding-bottom: 3px;
+      .title-box{font-weight: 600;}
+      .identify-flg{margin-top:3px; margin-right: 3px;}
+    }
+    .limit-wrap{
+      .limit-words{padding-bottom: 3px;display: flex; 
+        .limit-words-tips{display: flex; margin-left: 6px;
+          .limit-words-tips-icon{margin-top: 3px;}
+        }
+      }
+    }
+    .list-bottom-wrap{display: flex;  padding-top: 5px; align-items: center;
+         .avatar-box{height: 20px;width: 20px;
+         .image-box{border-radius: 50%; }
+      }
+      .diamonds-icon{margin: 0 3px;}      
+    }
+  }
+  .right-area{width: 65px;
+    .list-btn-box{
+      display: flex; flex-direction: row;
+      justify-content: center;
+      width: 60px;
+      padding: 3px 0; padding-right: 5px;
+      color: #8950FC;background-color: #EEE5FF;border-color: transparent; border-radius: 4px;
+    }
+    .list-total-msg{margin-top: 5px;}
+  }
+
+}
+.dot-active{color: #1BC5BD !important; background-color: #1BC5BD !important;}
+.dot-unactive{color: #ccc !important; background-color: #ccc !important;}
+.fontdot{height: 8px; width: 8px; margin: 0 4px;margin-top: 2px;  border-radius: 50%; color: #ccc;background-color: #ccc;}
+
+/*no order*/
+.no-order{margin-top: 150px; width: 100%; text-align: center; }
+.no-content{width: 100%; text-align: center;}
+/*输入框和按钮*/
+
+.search-box-body{ border-radius: 2px; padding: 10px;
+  .select-area{flex-direction: row; justify-content: space-between;}
+  .select-item{
+    display: inline-block; 
+    padding: .65rem 1rem;padding-left: 33px; padding-right: 33px; line-height: 1.5;border-radius: .42rem;background-color: #F3F6F9; border: 1px #F3F6F9 solid;
+  }
+  .select-item2{
+    display: inline-block; 
+    padding: .65rem 1rem; line-height: 1.5;border-radius: .42rem;background-color: #F3F6F9; border: 1px #F3F6F9 solid;
+  }
+  
+}
+.search-input{
+    border-radius: .42rem;
+    border: 1px #F3F6F9 solid; background-color: #F3F6F9; color: #3F4254;
+    padding: 0.65rem 1rem;box-sizing: border-box; width: 100%;
+}
+
+
+.search-btn-box{
+    border-radius: .42rem;padding: 6px 0;box-sizing: border-box;
+    width: 100%; text-align: center; border: 1px #8950FC solid;background-color: transparent;
+}
+
+.search-btn-box-transparent{ border: 1px solid transparent !important; }
+.btn-box{
+  background-color: #8950FC;   border: 1px transparent solid;    outline: none !important;
+  width: 100%;vertical-align: middle;box-shadow: none;user-select: none;
+  padding: 6px;border-radius:6px;
+}
+.btn-box:disabled{
+  opacity: 0.6;
+  box-shadow: none;
+}
+
+/**footer2 part*/
+.deal-footer{margin-bottom: 60px;text-align: center;}
+.footer-item-wrap{
+  justify-content: center; padding: 5px 100px; padding-bottom: 4px;
+  .footer-item{flex:1;}
+}
+
+/**body css*/
+
+body {
+    background-color: #f1f1f1;  
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.label{justify-content: center;align-items: center;}
+.label-pill {border-radius: none;}
+.label-inline {width: auto;border-radius: 0.42rem;}
+.text-input{width: 100%;padding: 14px;border-radius: 10px; border: 0;}
+/* pagination css fixed*/
+
+.text-align{text-align: center;}
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-input{  border: 1px transparent solid;}
+.text-input:focus{border: 1px #8950FC solid;}
+.input-focus:focus{border: 1px #8950FC solid !important;}
+/*中间红色的部分文字*/
+
+.alert-box-wrap{padding: 18px 24px; margin-bottom: 30px; align-items: center; border-radius: 6px;
+  .alert-icon-box{padding-right: 15px;}
+  .alert-text-box{line-height: 1.5;}
+}
+
+/*单选框*/
+.radio-box-wrap{
+  .radio-box{
+      color: #3F4254;
+      .option{padding: 1.4em;border: 1px solid #EBEDF3;border-radius: 0.42rem;margin-bottom: 0.5rem;
+          .option-control{width: 2rem;padding-top: 1.2px;
+              .radio{align-items: center;position: relative;text-align: left;cursor: pointer;transition: all 0.3s ease;margin: 0;}
+              .radio-input{position: absolute;z-index: -1;opacity: 0;box-sizing: border-box;padding: 0;margin: 0; font-family: inherit;font-size: inherit;line-height: inherit;}
+              .radio-circle{
+                  border: 1px solid transparent;height: 18px;
+                  width: 18px;border-radius: 50%;            
+                  align-items: center;justify-content: center;
+                  flex-shrink: 0;text-align: left;cursor: pointer;                
+              }
+              .radio-circle-after::after{content: '';display: block;border-radius: 50% ;background-color: #ffffff;border-color: #ffffff;width: 6px;height: 6px;}
+          }
+          .option-label{
+              flex: 1;
+              .option-head{justify-content: space-between;
+                  .option-title{color: #3F4254;
+                      .label-fixed{  display: inline-flex;                     
+                          padding: 4px 8px;margin-right:8px ;                       
+                      }
+                  }
+                  .option-focus{color: #181C32;}
+              }
+          }
+      }
+
+  }
+
+}
+/*select box*/
+.select-area{width: 100%;
+  .select-box{width: 100%;
+      .select-item{width: 100%; padding: 10px 17px;border: 1px #E4E6EF solid ; border-radius: 4px;  }
+  }
+}
+
+.bordergrey{ border: 1px #E4E6EF solid !important;}
+.input-wrap{ padding: 0;
+  .input-box{flex: 1; padding: 0 18px; }
+  .paddingbox{padding: 12px 30px;}
+  .paddingbox2{padding: 10px 22px;}
+  .width50{width: 50px;}  
+}
+.input-item-fixed{ width: 100%; height: 40px; 
+  border-top-right-radius: 0; border-bottom-right-radius: 0px;
+  border-top-left-radius: 6px; border-bottom-left-radius: 6px;
+}
+.input-item{
+  width: 100%; height: 40px;
+  border-radius: 0 !important;
+}
